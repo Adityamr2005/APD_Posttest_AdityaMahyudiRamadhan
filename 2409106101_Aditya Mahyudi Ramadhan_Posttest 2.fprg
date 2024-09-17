@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tugas2"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-17 01:29:36 PM"/>
+        <attribute name="created" value="VVNFUjtERVNLVE9QLU5EQURQRk87MjAyNC0wOS0xNjswNzowOToxNCBBTTsyNjg0"/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLU5EQURQRk87MjAyNC0wOS0xNjswMjowNzo0OSBQTTsxNjsyODYy"/>
+        <attribute name="edited" value="UGVyc29uYWw7REVTS1RPUC0xQ0w1QkMxOzIwMjQtMDktMTc7MDE6Mjk6MzYgUE07NDszMjQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hrg, a, b, c, jns, kg, potongan, tot, byr" type="Integer" array="False" size=""/>
+            <declare name="nama, nim" type="String" array="False" size=""/>
+            <output expression="&quot;Nama Mahasiswa : &quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Nomor Induk Mahasiswa : &quot;" newline="True"/>
+            <input variable="nim"/>
+            <output expression="&quot;Jumlah Kg : &quot;" newline="True"/>
+            <input variable="kg"/>
+            <output expression="&quot;Jenis Gula [1. Gulaku], [2. Manis Kita], [3. Gunung Madu] :&quot;" newline="True"/>
+            <output expression="&quot;Jenis Gula [1. Gulaku]&quot;" newline="True"/>
+            <assign variable="hrg" expression="21000*kg"/>
+            <assign variable="Potongan" expression="Hrg*0.07"/>
+            <assign variable="Byr" expression="Hrg-Potongan"/>
+            <output expression="&quot;Total Bayar Rp. &quot;" newline="True"/>
+            <output expression="Byr" newline="True"/>
+            <output expression="&quot;Jenis Gula [2. Manis Kita]&quot;" newline="True"/>
+            <assign variable="hrg" expression="21000*kg"/>
+            <assign variable="Potongan" expression="Hrg*0.11"/>
+            <assign variable="Byr" expression="Hrg-Potongan"/>
+            <output expression="&quot;Total Bayar Rp. &quot;" newline="True"/>
+            <output expression="Byr" newline="True"/>
+            <output expression="&quot;Jenis Gula [3.Gunung Madu]&quot;" newline="True"/>
+            <assign variable="hrg" expression="21000*kg"/>
+            <assign variable="Potongan" expression="Hrg*0.13"/>
+            <assign variable="Byr" expression="Hrg-Potongan"/>
+            <output expression="&quot;Total Bayar Rp.&quot;" newline="True"/>
+            <output expression="Byr" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
