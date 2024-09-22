@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tugas 3"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-22 09:58:54 AM"/>
+        <attribute name="created" value="VVNFUjtERVNLVE9QLU5EQURQRk87MjAyNC0wOS0yMTswNzoyMDoxNyBQTTsyNjkx"/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLU5EQURQRk87MjAyNC0wOS0yMjswOTo1ODo1NCBBTTszNTsyODU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hrg, sisabyr, kurangbyr" type="Integer" array="False" size=""/>
+            <declare name="nama, waktu" type="String" array="False" size=""/>
+            <output expression="&quot;Nama Pemesan : &quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Waktu Beli (Senin s/d Minggu) : &quot;" newline="True"/>
+            <input variable="waktu"/>
+            <if expression="waktu=&quot;Senin&quot;">
+                <then>
+                    <output expression="&quot;Masukkan Harga Tiket Rp. 40000: &quot;" newline="True"/>
+                    <input variable="hrg"/>
+                    <if expression="hrg&gt;=40000">
+                        <then>
+                            <assign variable="sisabyr" expression="hrg-40000"/>
+                            <output expression="&quot;Anda Bisa Membeli Tiket pada Hari &quot;&amp;waktu" newline="True"/>
+                            <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="kurangbyr" expression="40000-hrg"/>
+                            <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                            <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="waktu=&quot;Jumat&quot;">
+                        <then>
+                            <output expression="&quot;Masukkan Harga Tiket Rp. 45000 : &quot;" newline="True"/>
+                            <input variable="hrg"/>
+                            <if expression="hrg &gt;=45000">
+                                <then>
+                                    <assign variable="sisabyr" expression="hrg-45000"/>
+                                    <output expression="&quot;Anda Bisa Membeli Tiket pada Hari ini..!&quot; &amp;waktu" newline="True"/>
+                                    <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="kurangbyr" expression="45000-hrg"/>
+                                    <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                                    <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="waktu=&quot;Sabtu&quot;">
+                                <then>
+                                    <output expression="&quot;Masukkan Harga Tiket Rp. 55000 : &quot;" newline="True"/>
+                                    <input variable="hrg"/>
+                                    <if expression="hrg&gt;=55000">
+                                        <then>
+                                            <assign variable="sisabyr" expression="hrg-55000"/>
+                                            <output expression="&quot;Anda Bisa Membeli Tiket pada Hari ini..!&quot; &amp;waktu" newline="True"/>
+                                            <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="kurangbyr" expression="55000-hrg"/>
+                                            <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                                            <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <if expression="waktu=&quot;Minggu&quot;">
+                                        <then>
+                                            <output expression="&quot;Masukkan Harga Tiket Rp. 60000 : &quot;" newline="True"/>
+                                            <input variable="hrg"/>
+                                            <if expression="hrg&gt;=60000">
+                                                <then>
+                                                    <assign variable="sisabyr" expression="hrg-60000"/>
+                                                    <output expression="&quot;Anda Bisa Membeli Tiket pada Hari ini..!&quot; &amp;waktu" newline="True"/>
+                                                    <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <assign variable="kurangbyr" expression="60000-hrg"/>
+                                                    <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                                                    <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="waktu=&quot;Selasa&quot;">
+                <then>
+                    <output expression="&quot;Masukkan Harga Tiket Rp. 40000: &quot;" newline="True"/>
+                    <input variable="hrg"/>
+                    <if expression="hrg &gt;=40000">
+                        <then>
+                            <assign variable="sisabyr" expression="hrg-40000"/>
+                            <output expression="&quot;Anda Bisa Membeli Tiket pada Hari &quot;&amp;waktu" newline="True"/>
+                            <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="kurangbyr" expression="40000-hrg"/>
+                            <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                            <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="waktu=&quot;Rabu&quot;">
+                <then>
+                    <output expression="&quot;Masukkan Harga Tiket Rp. 40000: &quot;" newline="True"/>
+                    <input variable="hrg"/>
+                    <if expression="hrg &gt;= 40000">
+                        <then>
+                            <assign variable="sisabyr" expression="hrg-40000"/>
+                            <output expression="&quot;Anda Bisa Membeli Tiket pada Hari &quot;&amp;waktu" newline="True"/>
+                            <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="kurangbyr" expression="40000-hrg"/>
+                            <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                            <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="waktu=&quot;Kamis&quot;">
+                <then>
+                    <output expression="&quot;Masukkan Harga Tiket Rp. 40000: &quot;" newline="True"/>
+                    <input variable="hrg"/>
+                    <if expression="hrg &gt;= 40000">
+                        <then>
+                            <assign variable="sisabyr" expression="hrg-40000"/>
+                            <output expression="&quot;Anda Bisa Membeli Tiket pada Hari &quot;&amp;waktu" newline="True"/>
+                            <output expression="&quot;Sisa Uang Anda Rp. &quot;&amp; sisabyr" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="kurangbyr" expression="40000-hrg"/>
+                            <output expression="&quot;Uang Anda Kurang Rp. &quot; &amp;kurangbyr" newline="True"/>
+                            <output expression="&quot;Anda Tidak Bisa Membeli Tiket Hari ini Karena Uang Anda Tidak Cukup..!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
