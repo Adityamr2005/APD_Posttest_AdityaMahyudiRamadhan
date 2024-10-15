@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Halaman-1" id="RN0jeoRo1hBTAjcvG9pS">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eByOltg10TT4RNRNaiic-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-1" target="eByOltg10TT4RNRNaiic-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-2" target="eByOltg10TT4RNRNaiic-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-2" value="Daftar Menu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-5" target="eByOltg10TT4RNRNaiic-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-5" value="Nasi Goreng Biasa, Nasi Goreng Spesial,&lt;div&gt;Nasi Goreng Pedas, Nasi Goreng Pattaya Seafood,&lt;/div&gt;&lt;div&gt;Nasi Goreng Tom Yum, Nasi Goreng Extra Pedas,&lt;/div&gt;&lt;div&gt;Nasi Goreng Sosis Bakso, Nasi Goreng Rendang&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-7" target="eByOltg10TT4RNRNaiic-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-7" value="Tambah Menu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-9" target="eByOltg10TT4RNRNaiic-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-9" value="Nasi Goreng Jumbo, Nasi Goreng Mawut Jumbo,&lt;div&gt;Nasi Goreng Mawut Spesial, Nasi Goreng Putih&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-11" target="eByOltg10TT4RNRNaiic-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-11" value="Simpan = Menu.pop" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="690" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eByOltg10TT4RNRNaiic-13" target="eByOltg10TT4RNRNaiic-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-13" value="Nasi Goreng Rendang Jumbo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eByOltg10TT4RNRNaiic-15" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="370" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
