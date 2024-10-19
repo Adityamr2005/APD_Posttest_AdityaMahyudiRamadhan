@@ -63,3 +63,28 @@ while True:
                         print(Daftar_Menu["Menu 8"])
                         print(Daftar_Menu)
                         
+                    if pilih == "3":
+                        opsi = input("opsi: ")
+                        nomor = input("nomor: ")
+                        akun[2].append([opsi, nomor]) 
+                    else: 
+                        print("list menu kamu sudah diubah!\n")
+                        
+                    if pilih == "4":
+                       print("List Menu sudah kembali.\n")
+                       break
+         
+                
+    elif opsi == "3":
+        print("kamu ingin keluar dari list menu ini? ")
+        print("1. Iya")
+        print("2. Tidak")
+        pilih = input("ketik pilihan: ")
+        print(" ")
+        if pilih == "1":
+            print("Terimakasih sudah memilih menu ini, semoga bisa menikmatimu!")
+            break
+        elif pilih == "2":
+            continue
+        else:
+            print("Input tidak valid, silahkan pilih '1' atau '2'\n")     
